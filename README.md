@@ -2,7 +2,7 @@
 <p align="center">La boîte à outils de textométrie</p>
 <br/>
 
-Ce projet a été initié par Jérémy Demange au sein du laboratoire IDHN (CY Cergy Paris Université). Il regroupe plusieurs outils et algorithmes pour faire de l’analyse de grands corpus de textes.
+Ce projet a été initié par Jérémy Demange au sein du laboratoire IDHN (CY Cergy Paris Université). Il regroupe plusieurs outils et algorithmes développés en Python pour faire de l’analyse de grands corpus de textes.
 
 ## Installation
 
