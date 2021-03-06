@@ -14,4 +14,4 @@ En cours d'écriture...
 
 ## Citations
 
-Pour toute utilisation de nos outils, merci de citer les auteurs des algorithmes dans d'éventuelles publications.
+Pour toute utilisation de nos algorithmes, merci de citer les auteurs dans d'éventuelles publications.
