@@ -1,0 +1,2 @@
+# TEXTO
+Projet de textométrie.
