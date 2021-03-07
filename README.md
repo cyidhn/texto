@@ -10,7 +10,7 @@ Ce projet a été initié par Jérémy Demange au sein du laboratoire IDHN (CY C
 
 ## Installation
 
-La librairie de textométrie est actuellement en cours de développement actif. Pour les développeurs Python, rendez-vous dans le dossier _prototype_.
+La librairie de textométrie est actuellement en cours de développement actif. Pour les développeurs Python, rendez-vous dans le dossier _prototypes_.
 
 Pour installer la librairie, assurez-vous d'avoir une version de Python >=3.6 puis lancez la commande suivante :
 
