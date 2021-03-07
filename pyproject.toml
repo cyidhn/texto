@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "texto"
+version = "0.1.0"
+description = "Projet de textométrie."
+authors = ["Jérémy DEMANGE <jeremy@scrapfast.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+spacy = "^3.0.3"
+nltk = "^3.5"
+
+[tool.poetry.dependencies.fr_core_news_md]
+url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.0.0/fr_core_news_md-3.0.0.tar.gz"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+texto = 'entry:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
