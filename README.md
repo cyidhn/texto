@@ -1,5 +1,9 @@
 <h1 align="center">TEXTO</h1>
 <p align="center">La boîte à outils de textométrie</p>
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/made-with-python.svg"/>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
+</p>
 <br/>
 
 Ce projet a été initié par Jérémy Demange au sein du laboratoire IDHN (CY Cergy Paris Université). Il regroupe plusieurs outils et algorithmes développés en Python pour faire de l’analyse de grands corpus de textes.
