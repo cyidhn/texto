@@ -20,7 +20,7 @@ texto
 
 Pour les développeurs souhaitant prototyper ou ajouter leurs algorithmes, il est conseillé de forker ce référentiel, de le cloner, de créer une branche spécifique à votre algorithme, d'effectuer vos modifications dans le code et de faire un pull request sur notre dépôt. Avant ça, il est fortement recommandé de créer une issue pour discuter des algorithmes que vous souhaitez ajouter ou améliorer.
 
-## Les algorithmes disponibles
+## Les algorithmes en cours d'ajouts
 
 - Générateur de concordancier (Jérémy Demange)
 
