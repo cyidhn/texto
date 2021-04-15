@@ -22,17 +22,17 @@ Pour les développeurs souhaitant prototyper ou ajouter leurs algorithmes, il es
 
 ## Les algorithmes disponibles
 
-- Générateur de concordancier by @DemangeJeremy
+- Générateur de concordancier (Jérémy Demange)
 
-- Dispersion du discours by @DemangeJeremy
+- Dispersion du discours (Jérémy Demange)
 
-- Fréquence des termes by @DemangeJeremy
+- Fréquence des termes (Jérémy Demange)
 
-- RAMER (Algorithme de topics issu du langage d'indexation RAMEAU de la BNF) by @DemangeJeremy
+- RAMER - Algorithme de topics issu du langage d'indexation RAMEAU de la BNF (Jérémy Demange)
 
-- Reine (Algorithme semblable à Reinette et Reinert dans Iramuteq) by @DemangeJeremy
+- Reine - Algorithme semblable à Reinette et Reinert dans Iramuteq (Jérémy Demange)
 
-- Topic Modeling (Algorithme utilisatant l'allocation de Dirichlet latente) by @DemangeJeremy
+- Topic Modeling - Algorithme utilisatant l'allocation de Dirichlet latente (Jérémy Demange)
 
 
 ## Citations
