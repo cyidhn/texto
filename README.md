@@ -1,7 +1,5 @@
 <img alt="Texto" src="https://raw.githubusercontent.com/cyidhn/TEXTO/main/.github/images/texto.png" width="100%" />
 
-<br/>
-
 Ce projet a été initié par l'équipe du laboratoire IDHN (CY Cergy Paris Université). Il regroupe plusieurs outils et algorithmes développés en Python pour faire de l’analyse de grands corpus de textes.
 
 ## Installation
