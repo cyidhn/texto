@@ -1,12 +1,15 @@
-# from nltk.draw.dispersion import dispersion_plot
-# import matplotlib.pyplot as plt
+# 
+# Texto
+# Par Jeremy Demange
+# 
+
 from nltk.text import Text
 from nltk.probability import FreqDist
 import spacy
 
 class Concordancier():
     """
-    Fonction pour générer des concordancier.
+    Classe pour générer des concordancier.
     """
 
     def __init__(self, corpus="fr_core_news_md"):
@@ -24,7 +27,6 @@ class Concordancier():
                 else:
                     token.append(tok.text.lower())
         self.txt = Text(token)
-        return self.txt
 
     def view(self, requete):
         """..."""
