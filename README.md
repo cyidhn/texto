@@ -1,5 +1,4 @@
-<h1 align="center">TEXTO</h1>
-<p align="center">La boîte à outils de textométrie</p>
+<img alt="Texto" src="https://raw.githubusercontent.com/cyidhn/TEXTO/main/.github/images/texto.png" width="100%" />
 <p align="center">
   <img src="https://forthebadge.com/images/badges/made-with-python.svg"/>
   <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
