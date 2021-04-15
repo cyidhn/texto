@@ -12,7 +12,7 @@ Ce projet a été initié par l'équipe du laboratoire IDHN (CY Cergy Paris Univ
 
 La librairie de textométrie est actuellement en cours de développement actif. Pour les développeurs Python, rendez-vous dans le dossier _prototypes_.
 
-Pour installer la librairie, assurez-vous d'avoir une version de Python >=3.6 puis lancez la commande suivante :
+Pour installer la librairie, assurez-vous d'avoir une version de Python >=3.6 et <=3.8, puis lancez la commande suivante :
 
 ```
 pip install texto
