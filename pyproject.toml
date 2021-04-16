@@ -11,6 +11,7 @@ nltk = "3.5"
 gensim = "4.0.0b0"
 
 [tool.poetry.dev-dependencies]
+pytest="6.2.3"
 
 [tool.poetry.scripts]
 texto = 'texto.entry:main'
