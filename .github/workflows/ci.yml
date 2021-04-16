@@ -25,3 +25,5 @@ jobs:
           poetry-version: ${{ matrix.poetry-version }}
       - name: View poetry --help
         run: poetry --help
+      - name: Run tests
+        run: poetry run pytest
