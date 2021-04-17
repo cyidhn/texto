@@ -14,6 +14,7 @@ click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest="6.2.3"
+Sphinx = "^3.5.4"
 
 [tool.poetry.scripts]
 texto = 'texto.entry:cli'
