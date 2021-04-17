@@ -27,5 +27,7 @@ jobs:
         run: poetry --help
       - name: Install packages
         run: poetry install
+      - name: Install texto packages
+        run: texto install
       - name: Run tests
         run: poetry run pytest
