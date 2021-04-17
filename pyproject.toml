@@ -16,10 +16,7 @@ click = "^7.1.2"
 pytest="6.2.3"
 
 [tool.poetry.scripts]
-texto = 'texto.entry:main'
-
-[tool.poetry.dependencies.fr_core_news_md]
-url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.0.0/fr_core_news_md-3.0.0.tar.gz"
+texto = 'texto.entry:cli'
 
 [build-system]
 requires = ["poetry-core>=1.1.2"]
