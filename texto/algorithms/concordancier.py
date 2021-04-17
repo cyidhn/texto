@@ -30,5 +30,15 @@ class Concordancier():
 
     def view(self, requete):
         """..."""
+        self.requete = requete
         return self.txt.concordance(requete)
+
+    def export(self, requete = "", output = "./output.txt", formatage = "classic"):
+        """..."""
+        if requete == "":
+            requete = self.requete
+        result = self.txt.concordance(requete)
+        if formatage == "classic":
+            with open(output, 'w') as f:
+                f.write(str(result))
 
