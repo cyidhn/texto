@@ -1,4 +1,4 @@
-name: Python package
+name: publish
 on:
   push:
     tags:
