@@ -28,6 +28,6 @@ jobs:
       - name: Install packages
         run: poetry install
       - name: Install texto packages
-        run: texto install
+        run: poetry run texto install
       - name: Run tests
         run: poetry run pytest
