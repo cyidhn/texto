@@ -1,4 +1,4 @@
-from texto.algorithms.concordancier import Concordancier
+from texto.algorithms.dispersion import Dispersion
 
 # Texte 
 corpus = """
@@ -113,8 +113,8 @@ Vive la République .
 Vive la France .
 """
 
-def test_concordancier():
-    traitement = Concordancier()
+def test_dispersion():
+    traitement = Dispersion()
     traitement.run(corpus)
-    traitement.view("bonjour")
+    traitement.view(targets=['je','nous', 'vous'])
     # traitement.export()
