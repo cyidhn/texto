@@ -3,6 +3,7 @@
 # Par Jeremy Demange
 # 
 
+from pkg_resources import resource_filename
 import pandas as pd
 import spacy
 from re import search
@@ -10,6 +11,8 @@ import re
 import collections
 import math
 from nltk.stem.snowball import SnowballStemmer
+import pkgutil
+
 
 class Ramer():
     """
@@ -23,6 +26,22 @@ class Ramer():
 
         # NLP load
         self.nlp = spacy.load(corpus)
+        # Save
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab1.pkl"))
+        self.lab1 = df2.values.tolist()
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab2.pkl"))
+        self.lab2 = df2.values.tolist()
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab3.pkl"))
+        self.lab3 = df2.values.tolist()
+
+        # Save
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab1s.pkl"))
+        self.lab1s = df2.values.tolist()
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab2s.pkl"))
+        self.lab2s = df2.values.tolist()
+        df2 = pd.read_pickle(resource_filename(__name__, "../cache/lab3s.pkl"))
+        self.lab3s = df2.values.tolist()
+
 
     def view_thematic(self, texte):
         # Mount doc 
@@ -33,51 +52,35 @@ class Ramer():
         resLab1 = []
         resLab2 = []
         resLab3 = []
-
-        # Save
-        df2 = pd.read_pickle("../cache/lab1.pkl")
-        lab1 = df2.values.tolist()
-        df2 = pd.read_pickle("../cache/lab2.pkl")
-        lab2 = df2.values.tolist()
-        df2 = pd.read_pickle("../cache/lab3.pkl")
-        lab3 = df2.values.tolist()
-
-        # Save
-        df2 = pd.read_pickle("../cache/lab1s.pkl")
-        lab1s = df2.values.tolist()
-        df2 = pd.read_pickle("../cache/lab2s.pkl")
-        lab2s = df2.values.tolist()
-        df2 = pd.read_pickle("../cache/lab3s.pkl")
-        lab3s = df2.values.tolist()
         
         # Token
         for token in doc:
             entry = token.lower()
-            for i in range(0, len(lab3)):
+            for i in range(0, len(self.lab3)):
                 # if (entry).find(lab3[i]) is not -1:
-                if entry == lab3s[i][0]:
-                    if lab3[i][0] != "nan":
-                        resLab3.append(lab3[i][0])
-                    if lab2[i][0] != "nan":
-                        resLab2.append(lab2[i][0])
-                    if lab1[i][0] != "nan":
-                        resLab1.append(lab1[i][0])
+                if entry == self.lab3s[i][0]:
+                    if self.lab3[i][0] != "nan":
+                        resLab3.append(self.lab3[i][0])
+                    if self.lab2[i][0] != "nan":
+                        resLab2.append(self.lab2[i][0])
+                    if self.lab1[i][0] != "nan":
+                        resLab1.append(self.lab1[i][0])
                 # if (entry).find(lab2[i]) is not -1:
-                if entry == lab2s[i][0]:
+                if entry == self.lab2s[i][0]:
                     # if lab3[i] != "nan":
                     #     resLab3.append(lab3[i])
-                    if lab2[i][0] != "nan":
-                        resLab2.append(lab2[i][0])
-                    if lab1[i][0] != "nan":
-                        resLab1.append(lab1[i][0])
+                    if self.lab2[i][0] != "nan":
+                        resLab2.append(self.lab2[i][0])
+                    if self.lab1[i][0] != "nan":
+                        resLab1.append(self.lab1[i][0])
                 # if (entry).find(lab1[i]) is not -1:
-                if entry == lab1s[i][0]:
+                if entry == self.lab1s[i][0]:
                     # if lab3[i] != "nan":
                     #     resLab3.append(lab3[i])
                     # if lab2[i] != "nan":
                     #     resLab2.append(lab2[i])
-                    if lab1[i][0] != "nan":
-                        resLab1.append(lab1[i][0])
+                    if self.lab1[i][0] != "nan":
+                        resLab1.append(self.lab1[i][0])
 
         # Interprete
         cat1 = []
