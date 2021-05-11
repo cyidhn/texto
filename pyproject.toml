@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "texto"
-version = "0.1.3"
+version = "0.1.4"
 description = "Projet de textométrie."
 authors = ["Jérémy DEMANGE <jeremy@scrapfast.io>"]
 
